@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*
+Theme Name: DG36
+CSS/Theme URI: http://www.zuzanadesigns.com/
+Description: Designed by Zuzana Designs
+Version: 1.0
+Author: Zuzana Designs
+Author URI: http://www.zuzanadesigns.com/
+*/
+
+/* Startup CSS */
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	font-size: 14px;
+	color: #FFF;
+	background: #FFF url('../img/bg.jpeg') repeat;
+	position: relative;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.hide {
+	display: none !important;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.floatright {
+	float: right;
+}
+
+img.autoresize {
+	max-width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.highlight {
+	color: #f401ac !important;
+}
+
+a {
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+.rounded {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.wrapper {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#box {
+	float: left;
+	width: 500px;
+	padding: 30px 40px;
+	background: rgba(0, 0, 0, 0.9);
+	box-shadow: #FFF 0 0 30px;
+	border-radius: 10px;
+	border: 2px solid #222;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -292px;
+	margin-top: -250px;
+}
+
+.top {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.top h1 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.top h2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.steps {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.steps h3 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.steps ul.buttons {
+	float: left;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	margin: 10px 0 20px 0;
+}
+
+.steps ul.buttons li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.steps .loading {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+a.btn {
+	display: inline-block;
+	padding: 12px 20px;
+	background: #FFF;
+	color: #000;
+	border-radius: 4px;
+}
+
+a:hover.btn {
+	background: #f401ac;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.btnBig {
+	display: none;
+	padding: 12px 20px;
+	color: #000;
+	border-radius: 4px;
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+	border: 2px solid #b70081;
+	text-shadow: #b70081 2px 2px 0px;
+	padding: 12px 0px;
+	border-radius: 6px;
+	margin-top: 15px;
+	background: #f401ac;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #f401ac 1%, #9a006d 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f401ac), color-stop(100%, #9a006d));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f401ac 1%, #9a006d 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f401ac 1%, #9a006d 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f401ac 1%, #9a006d 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #f401ac 1%, #9a006d 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f401ac', endColorstr='#9a006d', GradientType=0);
+	/* IE6-9 */
+}
+
+a:hover.btnBig {
+	background: #9a006d;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #9a006d 1%, #f401ac 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #9a006d), color-stop(100%, #f401ac));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #9a006d 1%, #f401ac 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #9a006d 1%, #f401ac 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #9a006d 1%, #f401ac 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #9a006d 1%, #f401ac 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a006d', endColorstr='#f401ac', GradientType=0);
+	/* IE6-9 */
+}
+
+.step2,
+.step3,
+.step4,
+.number1,
+a.btn.btnBig,
+.number2,
+.number3,
+.number4 {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	#box {
+		width: 400px;
+		padding: 30px 10px;
+		margin-left: -212px;
+		margin-top: -250px;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	#box {
+		width: 300px;
+		padding: 30px 5px;
+		margin-left: -157px;
+		margin-top: -250px;
+	}
+}
